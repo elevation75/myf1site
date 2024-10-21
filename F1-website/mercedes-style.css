@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;500;900&display=swap');
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+:root
+{
+    --black:#111111;
+    --white: #fff;
+    --red: #80142b;
+    --mercedes: #00a19c;
+    --grey: #c6c6c6;
+}
+.main-header
+{
+  position: relative;
+  min-height: 100vh;
+  
+  
+  padding: 30px, 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main:before
+{
+    content: 'Mercedes W14';
+    position: absolute;
+    align-content: fill;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%,-10%);
+    font-size: 10vw; 
+    font-weight: 700;
+    /* font: rgba(255, 255, 255, 0.05); */
+    color: var(--grey);
+    text-shadow: 3px 3px 0 rgb(0, 0, 0, .2);
+    text-align:center;
+
+}
+body, html
+{
+  /* height: 100vh; */
+  /* background: linear-gradient(#2b2a2a, #00a19c); */
+  background-image: url("mercedes/front-car.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo 
+{
+  max-width: 300px;
+  position: flex;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.navigation 
+{
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  margin-top:70px;
+  font-size: 20px;
+}
+.navigation li 
+{
+  list-style: none;
+}
+.navigation li a
+{
+  position: relative;
+  color: var(--grey);
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.navigation li a:hover
+{
+  color: var(--mercedes);
+
+}

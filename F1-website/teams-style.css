@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;500;900&display=swap');
+* 
+{
+  box-sizing: border-box;
+  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+.bg-image 
+{
+  /* The image used */
+  background-image: url("f13.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: top;
+  justify-content:right;
+  font-family: 'Noto Sans', cursive;
+  /* font-size: 7rem; */
+  height: 100vh;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text 
+{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #00a19c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+:root
+{
+    --black:#111111;
+    --white: #fff;
+    --red: #80142b;
+    --mercedes: #00a19c;
+    --grey: #c6c6c6;
+} 
+
+.teamcard 
+{
+
+  position: relative;
+  width: 300px;
+  height:350px;
+  margin: 20px;
+  /* border-radius: 20px; */
+  transform: 0.5s;
+  transition-delay: 0.5s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.teamcard:hover 
+{
+
+  width:600px;
+  transition-delay: 0s;
+}
+
+.teamcard .circle 
+{
+
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height: 100%;
+  /* border-radius:10px; */
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamcard .circle::before
+{
+
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  /* background: var(--clr); */
+  clip-path: circle(120px at center);
+  transition:0.5s;
+}
+
+.teamcard:hover .circle::before
+{
+  clip-path: circle(400px at center);
+}
+
+.teamcard .circle .logo 
+{
+
+  position: relative;
+  width: 200px;
+  transition: 0s;
+  transition-delay: 0.5s;
+}
+
+.teamcard:hover .circle .logo 
+{
+
+  transform: scale(0);
+  transition-delay: 0s;
+}
+
+.content 
+{
+
+  position:relative;
+  width:50%;
+  left:20%;
+  padding: 20px 20px 20px 40px;
+  opacity:0;
+  transition:0.5s;
+  visibility: hidden;
+}
+
+.teamcard:hover .content 
+{
+
+  left:0;
+  opacity:1;
+  visibility: visible;
+  transition-delay: 0.5s;
+
+}
+
+.content h2 
+{
+
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height:1.5em;
+}
+
+.content p 
+{
+  
+  color: #fff;
+}
+
+.content a 
+{
+
+  position:relative;
+  color:#fff;
+  background:#80142b;
+  padding: 10px 20px;
+  border-radius:10px;
+  margin-top:10px;
+  display:inline-block;
+  text-decoration: none;
+  font-weight:500;
+
+}

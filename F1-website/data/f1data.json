@@ -1,0 +1,609 @@
+{
+
+    "drivers": {
+  
+      "ver": {
+  
+        "fname": "Max",
+  
+        "lname": "Verstappen",
+  
+        "abbr": "ver",
+  
+        "nr": 1,
+  
+        "country": "nl",
+  
+        "dob": "1997-09-30",
+  
+        "team": "redbull"
+  
+      },
+  
+      "per": {
+  
+        "fname": "Sergio",
+  
+        "lname": "Perez",
+  
+        "abbr": "per",
+  
+        "nr": 11,
+  
+        "country": "mx",
+  
+        "dob": "1990-01-26",
+  
+        "team": "redbull"
+  
+      },
+  
+      "ham": {
+  
+        "fname": "Lewis",
+  
+        "lname": "Hamilton",
+  
+        "abbr": "ham",
+  
+        "nr": 44,
+  
+        "country": "uk",
+  
+        "dob": "1985-01-07",
+  
+        "team": "mercedes"
+  
+      },
+  
+      "rus": {
+  
+        "fname": "George",
+  
+        "lname": "Russell",
+  
+        "abbr": "rus",
+  
+        "nr": 63,
+  
+        "country": "uk",
+  
+        "dob": "1998-02-15",
+  
+        "team": "mercedes"
+  
+      },
+  
+      "nor": {
+  
+        "fname": "Lando",
+  
+        "lname": "Norris",
+  
+        "abbr": "nor",
+  
+        "nr": 4,
+  
+        "country": "uk",
+  
+        "dob": "1999-11-13",
+  
+        "team": "mclaren"
+  
+      },
+
+      "pia": {
+  
+        "fname": "Oscar",
+  
+        "lname": "Piastri",
+  
+        "abbr": "pia",
+  
+        "nr": 81,
+  
+        "country": "au",
+  
+        "dob": "2001-04-06",
+  
+        "team": "mclaren"
+  
+      },
+  
+      "lec": {
+  
+        "fname": "Charles",
+  
+        "lname": "Leclerc",
+  
+        "abbr": "lec",
+  
+        "nr": 16,
+  
+        "country": "mc",
+  
+        "dob": "1997-10-16",
+  
+        "team": "ferrari"
+  
+      },
+  
+      "sai": {
+  
+        "fname": "Carlos",
+  
+        "lname": "Sainz",
+  
+        "abbr": "sai",
+  
+        "nr": 55,
+  
+        "country": "es",
+  
+        "dob": "1994-09-01",
+  
+        "team": "ferrari"
+  
+      },
+  
+      "gas": {
+  
+        "fname": "Pierre",
+  
+        "lname": "Gasly",
+  
+        "abbr": "gas",
+  
+        "nr": 10,
+  
+        "country": "fr",
+  
+        "dob": "1996-02-07",
+  
+        "team": "alpine"
+  
+      },
+
+      "oco": {
+  
+        "fname": "Esteban",
+  
+        "lname": "Ocon",
+  
+        "abbr": "oco",
+  
+        "nr": 31,
+  
+        "country": "fr",
+  
+        "dob": "1996-09-17",
+  
+        "team": "alpine"
+  
+      },
+  
+      "tsu": {
+  
+        "fname": "Yuki",
+  
+        "lname": "Tsunoda",
+  
+        "abbr": "tsu",
+  
+        "nr": 22,
+  
+        "country": "jp",
+  
+        "dob": "2000-05-11",
+  
+        "team": "alphatauri"
+  
+      },
+
+      "dev": {
+  
+        "fname": "Nyck",
+  
+        "lname": "de Vries",
+  
+        "abbr": "dev",
+  
+        "nr": 21,
+  
+        "country": "nl",
+  
+        "dob": "1995-06-02",
+  
+        "team": "alphatauri"
+  
+      },
+
+      "alo": {
+  
+        "fname": "Fernando",
+  
+        "lname": "Alonso",
+  
+        "abbr": "alo",
+  
+        "nr": 14,
+  
+        "country": "es",
+  
+        "dob": "1981-07-29",
+  
+        "team": "astonmartin"
+  
+      },
+  
+      "str": {
+  
+        "fname": "Lance",
+  
+        "lname": "Stroll",
+  
+        "abbr": "str",
+  
+        "nr": 18,
+  
+        "country": "ca",
+  
+        "dob": "1998-10-29",
+  
+        "team": "astonmartin"
+  
+      },
+  
+      "bot": {
+  
+        "fname": "Valtteri",
+  
+        "lname": "Bottas",
+  
+        "abbr": "bot",
+  
+        "nr": 77,
+  
+        "country": "fi",
+  
+        "dob": "1989-08-28",
+  
+        "team": "alfaromeo"
+  
+      },
+  
+      "zho": {
+  
+        "fname": "Zhou",
+  
+        "lname": "Guanyu",
+  
+        "abbr": "zho",
+  
+        "nr": 24,
+  
+        "country": "ch",
+  
+        "dob": "1999-05-30",
+  
+        "team": "alfaromeo"
+  
+      },
+  
+      "alb": {
+  
+        "fname": "Alexander",
+  
+        "lname": "Albon",
+  
+        "abbr": "alb",
+  
+        "nr": 23,
+  
+        "country": "th",
+  
+        "dob": "1996-03-23",
+  
+        "team": "williams"
+  
+      },
+  
+      "sar": {
+  
+        "fname": "Logan",
+  
+        "lname": "Sargeant",
+  
+        "abbr": "sar",
+  
+        "nr": 2,
+  
+        "country": "us",
+  
+        "dob": "2000-12-31",
+  
+        "team": "williams"
+  
+      },
+
+      
+  
+      "mag": {
+  
+        "fname": "Kevin",
+  
+        "lname": "Magnussen",
+  
+        "abbr": "mag",
+  
+        "nr": 20,
+  
+        "country": "dk",
+  
+        "dob": "1992-10-05",
+  
+        "team": "haas"
+  
+      },
+
+      "hul": {
+  
+        "fname": "Niko",
+  
+        "lname": "Hulkenberg",
+  
+        "abbr": "hul",
+  
+        "nr": 27,
+  
+        "country": "de",
+  
+        "dob": "1987-08-19",
+  
+        "team": "haas"
+  
+      }
+  
+    },
+  
+    "teams": {
+  
+      "redbull": {
+  
+        "name": "Red Bull",
+  
+        "nameFull": "Red Bull Racing Honda",
+  
+        "pu": "Honda",
+  
+        "color": {
+  
+          "rgb": [6, 0, 239],
+  
+          "hex": "#443ff3"
+  
+        },
+  
+        "drivers": ["ver", "per"]
+  
+      },
+  
+      "mercedes": {
+  
+        "name": "Mercedes",
+  
+        "nameFull": "Mercedes-AMG Petronas F1 Team",
+  
+        "pu": "Mercedes",
+  
+        "color": {
+  
+          "rgb": [0, 210, 190],
+  
+          "hex": "#00d2be"
+  
+        },
+  
+        "drivers": ["ham", "rus"]
+  
+      },
+  
+      "mclaren": {
+  
+        "name": "McLaren",
+  
+        "nameFull": "McLaren F1 Team",
+  
+        "pu": "Mercedes",
+  
+        "color": {
+  
+          "rgb": [255, 152, 0],
+  
+          "hex": "#ff9800"
+  
+        },
+  
+        "drivers": ["nor", "pia"]
+  
+      },
+  
+      "ferrari": {
+  
+        "name": "Ferrari",
+  
+        "nameFull": "Scuderia Ferrari",
+  
+        "pu": "Ferrari",
+  
+        "color": {
+  
+          "rgb": [220, 0, 0],
+  
+          "hex": "#dc0000"
+  
+        },
+  
+        "drivers": ["lec", "sai"]
+  
+      },
+  
+      "alphatauri": {
+  
+        "name": "AlphaTauri",
+  
+        "nameFull": "Scuderia AlphaTauri Honda",
+  
+        "pu": "Honda",
+  
+        "color": {
+  
+          "rgb": [43, 69, 98],
+  
+          "hex": "#2b4562"
+  
+        },
+  
+        "drivers": ["tsu", "dev"]
+  
+      },
+  
+      "astonmartin": {
+  
+        "name": "Aston Martin",
+  
+        "nameFull": "Aston Martin Aramco Cognizant F1 Team",
+  
+        "pu": "Mercedes",
+  
+        "color": {
+  
+          "rgb": [0, 111, 98],
+  
+          "hex": "#006f62"
+  
+        },
+  
+        "drivers": ["alo", "str"]
+  
+      },
+  
+      "alpine": {
+  
+        "name": "Alpine F1",
+  
+        "nameFull": "Alpine F1 Team",
+  
+        "pu": "Renault",
+  
+        "color": {
+  
+          "rgb": [0, 144, 255],
+  
+          "hex": "#0090ff"
+  
+        },
+  
+        "drivers": ["gas", "oco"]
+  
+      },
+  
+      "alfaromeo": {
+  
+        "name": "Alfa Romeo",
+  
+        "nameFull": "Alfa Romeo Racing ORLEN",
+  
+        "pu": "Ferrari",
+  
+        "color": {
+  
+          "rgb": [144, 0, 0],
+  
+          "hex": "#900000"
+  
+        },
+  
+        "drivers": ["bot", "zho"]
+  
+      },
+  
+      "williams": {
+  
+        "name": "Williams",
+  
+        "nameFull": "Williams Racing",
+  
+        "pu": "Mercedes",
+  
+        "color": {
+  
+          "rgb": [0, 90, 255],
+  
+          "hex": "#005aff"
+  
+        },
+  
+        "drivers": ["alb", "sar"]
+  
+      },
+  
+      "haas": {
+  
+        "name": "Haas",
+  
+        "nameFull": "MoneyGram Haas F1 Team",
+  
+        "pu": "Ferrari",
+  
+        "color": {
+  
+          "rgb": [255, 255, 255],
+  
+          "hex": "#ffffff"
+  
+        },
+  
+        "drivers": ["mag", "hul"]
+  
+      }
+  
+    },
+  
+    "countries": {
+
+      "us": "United States",
+  
+      "nl": "Netherlands",
+  
+      "uk": "United Kingdom",
+  
+      "mx": "Mexico",
+  
+      "fi": "Finland",
+  
+      "mc": "Monaco",
+  
+      "es": "Spain",
+  
+      "ca": "Canada",
+  
+      "fr": "France",
+  
+      "jp": "Japan",
+  
+      "it": "Italy",
+  
+      "de": "Germany",
+  
+      "ch": "China",
+  
+      "au": "Australia",
+
+      "th": "Thailand"
+  
+    }
+  
+  }
+  
+  

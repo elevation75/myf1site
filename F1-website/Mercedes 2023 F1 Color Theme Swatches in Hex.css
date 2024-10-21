@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Mercedes-Petronas-F1-1-hex { color: #979DA6; }
+.Mercedes-Petronas-F1-2-hex { color: #C1D4D9; }
+.Mercedes-Petronas-F1-3-hex { color: #027373; }
+.Mercedes-Petronas-F1-4-hex { color: #04BFAD; }
+.Mercedes-Petronas-F1-5-hex { color: #0E0F13; }
+
+/* Color Theme Swatches in RGBA */
+.Mercedes-Petronas-F1-1-rgba { color: rgba(151, 156, 165, 1); }
+.Mercedes-Petronas-F1-2-rgba { color: rgba(193, 212, 216, 1); }
+.Mercedes-Petronas-F1-3-rgba { color: rgba(1, 114, 114, 1); }
+.Mercedes-Petronas-F1-4-rgba { color: rgba(3, 191, 172, 1); }
+.Mercedes-Petronas-F1-5-rgba { color: rgba(14, 15, 19, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Mercedes-Petronas-F1-1-hsla { color: hsla(216, 7, 62, 1); }
+.Mercedes-Petronas-F1-2-hsla { color: hsla(192, 23, 80, 1); }
+.Mercedes-Petronas-F1-3-hsla { color: hsla(180, 96, 22, 1); }
+.Mercedes-Petronas-F1-4-hsla { color: hsla(174, 95, 38, 1); }
+.Mercedes-Petronas-F1-5-hsla { color: hsla(227, 15, 6, 1); }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;500;900&display=swap');
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+:root
+{
+    --white:#fff;
+    --blue: #47c7fc;
+    --orange: #ff8000;
+    --black: #000;
+}
+.main-header
+{
+  position: relative;
+  min-height: 100vh;
+  
+  
+  padding: 30px, 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main:before
+{
+    content: 'McLaren MCL60';
+    position: absolute;
+    align-content: fill;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%,-10%);
+    font-size: 10vw; 
+    font-weight: 700;
+    /* font: rgba(255, 255, 255, 0.05); */
+    color: var(--blue);
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+    text-align:center;
+}
+body, html
+{
+  /* height: 100vh; */
+  /* background: linear-gradient(#2b2a2a, #00a19c); */
+  background-image: url("mclaren/mclaren-frontcar.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo 
+{
+  max-width: 250px;
+  position: flex;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.navigation 
+{
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  margin-top:70px;
+  font-size: 20px;
+}
+.navigation li 
+{
+  list-style: none;
+}
+.navigation li a
+{
+  position: relative;
+  background-color: var(--orange);
+  border-radius: 25px;
+  padding: 2px 14px;
+  color: var(--white);
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.navigation li a:hover
+{
+  background-color: var(--blue);
+  border-radius: 25px;
+  padding: 2px 14px;
+  color: var(--black);
+}
+.content 
+{
+  font-size: 36px;
+  color: var(--white);
+  background: rgba(0, 0, 0, .5);
+  max-width: 650px;
+  position: flex;
+  margin-left: 250px;
+  margin-top: 200px;
+  position:relative;
+  border-radius:20px;
+  width:auto;
+  box-shadow: 1px 1px 0px 0px rgba(20,20,20,0.3);
+}

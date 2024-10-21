@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;500;900&display=swap');
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+:root
+{
+    --black:#111111;
+    --white: #fff;
+    --red: #80142b;
+    --mercedes: #00a19c;
+    --grey: #c6c6c6;
+} 
+.main-header
+{
+  position: relative;
+  min-height: 100vh;
+  
+  
+  padding: 30px, 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .main:before
+{
+    content:'text';
+    position: absolute;
+    align-content: fill;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%,-10%);
+    font-size: 10vw; 
+    font-weight: 700;
+    font: rgba(255, 255, 255, 0.05);
+    color: var(--grey);
+    text-shadow: 3px 3px 0 rgb(0, 0, 0, .2);
+    text-align:center;
+
+} */
+.logo 
+{
+  max-width: 200px;
+  position:flex;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+body
+
+{
+  background-image: url('f12.png');
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: top;
+  justify-content:right;
+  font-family: 'Noto Sans', cursive;
+  /* font-size: 7rem; */
+  height: 100vh;
+}
+
+
+.text-container > span {
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite;
+  font-size: 10rem;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 50px grey, 0 0 100px grey;
+  }
+  
+  10%, 90% {
+    color: white;
+    text-shadow: none;
+  }
+}
+
+.text-container > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
+
+.myButton {
+
+  position:flex;
+  margin-left: 670px;
+  margin-top: 550px;
+	box-shadow: 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #e22420 5%, #ce0100 100%);
+	background-color:#e22420;
+	border-radius:14px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Noto Sans;
+	font-size:25px;
+	font-weight:bold;
+	padding:8px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #e22420 100%);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
